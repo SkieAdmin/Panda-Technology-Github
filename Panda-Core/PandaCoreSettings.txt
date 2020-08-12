@@ -1,0 +1,9 @@
+-------------------------------------
+-- Panda Advance Settings --
+-------------------------------------
+
+PandaStatus=Patched
+DiscordAutoJoin=true
+CheckForUpdate=true
+DebugMode=false
+NoAnimation=false

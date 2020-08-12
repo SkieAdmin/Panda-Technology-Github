@@ -1,0 +1,89 @@
+v12.4
+---------------------------------------------------------------
+[+] Discord RPC
+[+] New Loader
+[+] Also Fix Bugs 
+[+] Enable Cheatsquad Module
+[+] Disable Hypermode Technology [ Under Renovation ]
+[+] Disable Custom DLL
+[+] New! Panda-Exploit Security
+
+v12.3
+------------------------------------------------
+[+] Fix Minor Bugs
+[+] Added Custom DLL ( Unstable )
+[+] New Lua Editor 
+[+] Added Script Tabs ( You can now Add Tab! ) 
+
+[+] If you want to use Previews Executor / Editor, Just Go to Settings 
+and Check the ( Use Old / Standard Lua Executor ). This will Enables
+you to use Monaco Executor ( without having Tabs )
+
+[+] API aren't Guarantee to Worked Yet
+
+
+v12.2
+--------------------------------------------------------------
+[+] Implementation of WPF to WinForm
+  - AvalonEdit is now on WinForm 
+  - Soon Adding Tabs and Removing ScintillaNet
+[+] Fix Major Bugs
+[+] Based on v4.6.1 & v4.6.2 ( So Make sure All of them are Installed )
+[+] Improve Stability of the UI
+[+] Improve Machine Learning -_-
+[+] Obfuscated with Eziris .NET Reactor -_-
+
+
+v12.1
+--------------------------------------------------------------
+[ + ] Fix Major Bugs Especially on API 
+[ + ] Replace FastcoloredText with ScintillaNet with Keywords
+[ + ] Fix Confusing Error
+[ + ] Implementation of Anti-Proxo Startup Technology
+[ + ] .NET Set from v4.6.1 to v4.6.2 ( For Stability & Compatibility )
+[ + ] EasyExploit still Remained
+
+
+v12.0
+--------------------------------------------------------------
+[ + ] Upon Downloading Panda-Exploit A+, You will Undergoes 2-3 Linkvertise for Our Revenue, but the Good News is we stopped using Linkvertise Installer because it can lead to damaged our Product.
+
+[ + ] Disabled Auto Joiner due to Hard Security Issue / Many User Complains
+[ + ] Owlhub will gets error if you execute it on EasyExploit
+[ + ] Major Bug Fixes
+[ + ] Loading Form is now on Windows Presentation Form ( Thanks to Profility / Everythin9 for their guiding me on how to manipulate it )
+[ + ] Fix Some Game GUI
+[ + ] Soon Adding Built-in Ironbrew Obfuscator
+
+
+v11.5
+--------------------------------------------------------------
+[ + ] Added Auto Execute
+[ + ] Added Monaco on Panda-Exploit A+
+[ + ] Added Home Button 
+[ + ] Added New Game GUI ( The Street )
+[ + ] Updated ( Ninja Legend )
+[ + ] Fix Unknown Major Bugs 
+[ + ] Added Anti-Proxo Features ( Exploit won't launch if Proxo is Installed on your PC ).
+
+v11.4
+--------------------------------------------------------------
+[ + ] Adding Panda Configuration on File
+[ + ] Improve User Interface
+[ + ] Fixing New Issue
+
+v11.3
+--------------------------------------------------------------
+[ + ] Fix leveldb Bug ( This Bug due to Discord Auto Joiner didn't Detect any Discord from your Device )
+[ + ] Added 7 New Game GUI
+[ + ] New! Panda Admin GUI
+[ + ] Improved Stability 
+[ + ] Added Panda Watermark -_-
+[ + ] Added Owlhub Universal Features!
+[ + ] Other Major Bug Fixes
+
+
+v11.2
+--------------------------------------------------------------
+[ + ] Server Updated from 000webhost to Github ( Temporary Only )
+[ + ] Minor Bug Fixes

@@ -6,7 +6,7 @@ echo --------------------------------------------
 npm start
 echo -------------------------------------------
 echo [ Obfuscated Complete, Returning Message to Application ]
-echo some-text  > filename.txt
+echo Done  > ReturnMsg.panda
 timeout 2>nul
 cls
 exit

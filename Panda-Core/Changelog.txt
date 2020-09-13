@@ -1,3 +1,24 @@
+v14.1
+---------------------------------------------------------------
+[ + ] Performance Improvement
+[ + ] Added Auto Joiner ( Safe! )
+[ + ] Implemented of LuaJIT to Wrapper making the Exploit Fast to Execute.
+[ + ] More Stable!
+[ + ] Fix Major Bugs / Missing Functions
+[ + ] Added Custom DLL 
+[ + ] Obfuscated with .NET Reactor -_-
+[ + ] Added Owlhub ( Arsenal / Universal / Ninja Legend / Counter Blox )
+[ + ] Added New! Other Category ( ESP / Dex / Admin GUI / etc )
+
+v14.0
+---------------------------------------------------------------
+[ + ] Stable User Interface
+[ + ] User Interface Transformed to WPF State
+[ + ] Added Panda Secured Module 
+[ + ] Fix Bugs
+[ + ] Improved Wrapper
+[ + ] Added Checker Tools ( if your script might be an Error or not )
+
 v12.4
 ---------------------------------------------------------------
 [+] Discord RPC

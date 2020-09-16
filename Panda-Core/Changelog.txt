@@ -1,3 +1,14 @@
+v14.2
+---------------------------------------------------------------
+[ + ] Added Minimize Button 
+[ + ] Fix Major Bug on Custom DLL
+[ + ] PandaAPI Download Link Relinked to other Server because Yesterday Github can't upload the DLL
+[ + ] Soon Adding Tainted Bypass
+[ + ] Soon Adding Read / Write Functions
+[ + ] High Improvement on Exploit's Performance.
+[ + ] Owlhub aren't Gonna work due to AsyncClient on DLL.
+
+
 v14.1
 ---------------------------------------------------------------
 [ + ] Performance Improvement

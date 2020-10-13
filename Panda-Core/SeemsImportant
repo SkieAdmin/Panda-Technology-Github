@@ -1,0 +1,71 @@
+	getgenv().getloadedmodules = function()
+		local Table = {}
+		for i,v in pairs(getreg()) do
+			if type(v) == "table" then
+				for I,V in pairs(v) do
+					if typeof(V) == "Instance" and V.ClassName == "ModuleScript" then
+						table.insert(Table, V)
+					end
+				end
+			end
+		end
+		return Table
+	end
+
+	getgenv().Input = {
+		LeftClick = LeftClick;
+		RightClick = RightClick;
+		MoveMouse = MoveMouse;
+		KeyPress = KeyPress;
+		KeyDown = KeyDown;
+		KeyUp = KeyUp;
+	}
+
+	getgenv().LoadLibrary = function(x)
+		return loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox/Core-Scripts/master/CoreScriptsRoot/Libraries/" .. x .. ".lua", true))()
+	end
+
+	getgenv().input = Input;
+
+	getgenv().setreadonly = function(mt, boolean)
+		if boolean then
+			make_readonly(mt)
+		else
+			make_writeable(mt)
+		end
+	end
+
+	getgenv().RandomString = function(len)
+		local res = ""
+		for i = 1, len do
+			res = res .. string.char(math.random(97, 122))
+		end
+		return res
+	end
+
+	local HttpGet = function(self, url)
+		return HttFpGet(url)
+	end
+
+	local GetObjects = function(a,b)
+		local rtn = {}
+		local c = game:GetService("InsertService"):LoadLocalAsset(b)
+		table.insert(rtn, c)
+		return rtn 
+	end
+
+	local mt = getrawmetatable(game)
+	local old = mt.__index
+	make_writeable(mt)
+	mt.__index = newcclosure(function(t, k)
+		if checkcaller() then
+			if k == "HttpGet" then
+				return HttpGet
+			elseif k == "HttpGetAsync" then
+				return HttpGet	
+			elseif k == "GetObjects" then
+				return GetObjects
+			end	
+		end
+		return old(t, k)
+	end)
